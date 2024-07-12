@@ -1,10 +1,7 @@
+// src/components/shared/CTAButton.tsx
 import React from 'react';
+import { CTAButtonProps } from './../../types';
 
-// Define the props interface for the CTAButton component
-interface CTAButtonProps {
-  text: string;      // The text to be displayed on the button
-  onClick: () => void; // Function to be called when the button is clicked
-}
 
 // Functional component definition
 const CTAButton: React.FC<CTAButtonProps> = ({ text, onClick }) => {
