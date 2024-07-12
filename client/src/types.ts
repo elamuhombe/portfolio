@@ -5,6 +5,11 @@ export interface Link {
     text: string;
     url: string;
   }
+
+  // Define the props interface for the LinkList component
+export interface LinkListProps {
+    links: Link[];
+  }
 // Define the props interface for the SectionTitle component
 export interface SectionTitleProps {
     title: string;       // The main title to display
