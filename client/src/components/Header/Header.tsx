@@ -5,7 +5,8 @@ import React from 'react';
 const Header: React.FC = () => {
     return (
         <header>
-          
+            {/* Add header title */}
+          <h1>Elaine Muhombe resume</h1>
         </header>
     );
 };
