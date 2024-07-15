@@ -20,3 +20,8 @@ export interface CTAButtonProps {
     text: string;      // The text to be displayed on the button
     onClick: () => void; // Function to be called when the button is clicked
   } 
+
+export // Props interface definition
+interface DownloadCVButtonProps {
+  cvUrl: string;  // URL to the CV file
+}
