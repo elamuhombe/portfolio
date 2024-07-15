@@ -1,6 +1,7 @@
 // src/components/Header/Header.tsx
 import React from 'react';
 import NavBar from './NavBar/NavBar';
+import DownloadCVButton from './DownloadCVButton';
 
 // Define the Header component
 const Header: React.FC = () => {
@@ -10,6 +11,8 @@ const Header: React.FC = () => {
           <h1>Elaine Muhombe resume</h1>
           {/* Render NavBar component */}
           <NavBar />
+          {/* Render DownloadCVButton component */}
+          <DownloadCVButton cvUrl={''} />
         </header>
     );
 };
