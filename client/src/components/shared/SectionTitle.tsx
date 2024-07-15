@@ -1,6 +1,6 @@
 // src/components/shared/SectionTitle.tsx
-import React from 'react';
-import { SectionTitleProps } from './../../types';
+import React from "react";
+import { SectionTitleProps } from "./../../types";
 
 // Functional component that accepts props
 const SectionTitle: React.FC<SectionTitleProps> = ({ title, className }) => {
@@ -8,6 +8,11 @@ const SectionTitle: React.FC<SectionTitleProps> = ({ title, className }) => {
     <div className={`section-title ${className}`}>
       {/* Render the title inside an h2 element */}
       <h2>{title}</h2>
+      {/* Introductory text */}
+      <h2>
+        I ensure that design and functionality are seamlessly integrated,
+        resulting in cohesive and polished applications
+      </h2>
     </div>
   );
 };
