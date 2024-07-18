@@ -16,8 +16,8 @@ const SectionTitle: React.FC<SectionTitleProps> = ({ title, className }) => {
       <p>I ensure that design and functionality are seamlessly integrated,
       resulting in cohesive and polished applications</p>
       {/* Contact Me Button */}
-      <CTAButton text="Contact Me" onClick={function (): void {
-        throw new Error("Function not implemented.");
+      <CTAButton text="Contact Me"  onClick={() => {
+    window.location.href = '#about';
       } } />
     </div>
   );
