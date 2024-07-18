@@ -1,6 +1,7 @@
 // src/components/shared/SectionTitle.tsx
 import React from "react";
 import { SectionTitleProps } from "./../../types";
+import CTAButton from "./CTAButton";
 
 // Functional component that accepts props
 const SectionTitle: React.FC<SectionTitleProps> = ({ title, className }) => {
@@ -14,6 +15,10 @@ const SectionTitle: React.FC<SectionTitleProps> = ({ title, className }) => {
       </h2>
       <p>I ensure that design and functionality are seamlessly integrated,
       resulting in cohesive and polished applications</p>
+      {/* Contact Me Button */}
+      <CTAButton text="Contact Me" onClick={function (): void {
+        throw new Error("Function not implemented.");
+      } } />
     </div>
   );
 };
