@@ -2,6 +2,7 @@
 import React from "react";
 import { SectionTitleProps } from "./../../types";
 import CTAButton from "./CTAButton";
+import ViewPortfolio from "../about/ViewPortfolio";
 
 // Functional component that accepts props
 const SectionTitle: React.FC<SectionTitleProps> = ({ title, className }) => {
@@ -26,6 +27,8 @@ const SectionTitle: React.FC<SectionTitleProps> = ({ title, className }) => {
           window.location.href = "#about";
         }}
       />
+       {/* ViewPortfolio component that redirects to the "#portfolio" section when clicked */}
+      <ViewPortfolio />
     </div>
   );
 };
