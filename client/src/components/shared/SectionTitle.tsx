@@ -10,9 +10,10 @@ const SectionTitle: React.FC<SectionTitleProps> = ({ title, className }) => {
       <h2>{title}</h2>
       {/* Introductory text */}
       <h2>
-        I ensure that design and functionality are seamlessly integrated,
-        resulting in cohesive and polished applications
+      Ensuring Seamless Integration of Design and Functionality for Cohesive, Polished Applications
       </h2>
+      <p>I ensure that design and functionality are seamlessly integrated,
+      resulting in cohesive and polished applications</p>
     </div>
   );
 };
