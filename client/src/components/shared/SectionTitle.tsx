@@ -11,14 +11,21 @@ const SectionTitle: React.FC<SectionTitleProps> = ({ title, className }) => {
       <h2>{title}</h2>
       {/* Introductory text */}
       <h2>
-      Ensuring Seamless Integration of Design and Functionality for Cohesive, Polished Applications
+        Ensuring Seamless Integration of Design and Functionality for Cohesive,
+        Polished Applications
       </h2>
-      <p>I ensure that design and functionality are seamlessly integrated,
-      resulting in cohesive and polished applications</p>
-      {/* Contact Me Button */}
-      <CTAButton text="Contact Me"  onClick={() => {
-    window.location.href = '#about';
-      } } />
+      <p>
+        I ensure that design and functionality are seamlessly integrated,
+        resulting in cohesive and polished applications
+      </p>
+      {/* CTAButton component that redirects to the "#about" section when clicked */}
+      <CTAButton
+        text="Contact Me"
+        onClick={() => {
+          // Update the window location to navigate to the #about section
+          window.location.href = "#about";
+        }}
+      />
     </div>
   );
 };
